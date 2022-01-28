@@ -20,10 +20,10 @@ import (
 
 func main() {
 
-	scanner := bufio.NewScanner(os.Stdin)
+scanner := bufio.NewScanner(os.Stdin)	
 
 	for {
-		fmt.Println("Hva vil du sende over? --> kylling, rev eller korn")
+		fmt.Println("Hva vil du prioritere eller riske livet til over vannet? --> kylling, rev eller korn")
 		scanner.Scan()
 		text := scanner.Text()
 		fmt.Println(event.FirstPut(text))

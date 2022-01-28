@@ -1,10 +1,11 @@
-package main 
+package main
 
 
 import (
 	"bufio"
 	"fmt"
-	"https://github.com/bjornarnevland/RiverCrossing-"
+
+	"github.com/bjornarnevland/RiverCrossing-/event"
 	"os"
 
 	//"rc1-verden/event"
@@ -34,3 +35,4 @@ func main() {
 			break
 		}
 	}
+}

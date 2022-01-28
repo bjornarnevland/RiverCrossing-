@@ -1,4 +1,4 @@
-package main
+package state
 
 
 var tilstand string
